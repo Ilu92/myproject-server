@@ -1,1 +1,1 @@
-# MyProject Server
+# My-Project Server
