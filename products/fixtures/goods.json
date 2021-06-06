@@ -3,9 +3,9 @@
     "model": "products.product",
     "pk": 1,
     "fields": {
-      "name": "Худи черного цвета с монограммами adidas Originals",
+      "name": "РҐСѓРґРё С‡РµСЂРЅРѕРіРѕ С†РІРµС‚Р° СЃ РјРѕРЅРѕРіСЂР°РјРјР°РјРё adidas Originals",
       "image": "products_images/Adidas-hoodie.png",
-      "description": "Мягкая ткань для свитшопов. Стиль и комфорт - это образ жизни.",
+      "description": "РњСЏРіРєР°СЏ С‚РєР°РЅСЊ РґР»СЏ СЃРІРёС‚С€РѕРїРѕРІ. РЎС‚РёР»СЊ Рё РєРѕРјС„РѕСЂС‚ - СЌС‚Рѕ РѕР±СЂР°Р· Р¶РёР·РЅРё.",
       "price": "6090.00",
       "quantity": 10,
       "category": 1
