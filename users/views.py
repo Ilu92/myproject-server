@@ -2,9 +2,9 @@ from django.shortcuts import render
 
 # Create your views here.
 def login(request):
-    context = {'title': 'GeekShop - Авторизация'}
+    context = {'title': 'GeekShop - РђРІС‚РѕСЂРёР·Р°С†РёСЏ'}
     return render(request, 'users/login.html', context)
 
 def register(request):
-    context = {'title': 'GeekShop - Регистрация'}
+    context = {'title': 'GeekShop - Р РµРіРёСЃС‚СЂР°С†РёСЏ'}
     return render(request, 'users/register.html', context)
