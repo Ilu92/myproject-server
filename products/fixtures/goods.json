@@ -1,0 +1,14 @@
+[
+  {
+    "model": "products.product",
+    "pk": 1,
+    "fields": {
+      "name": "’уди черного цвета с монограммами adidas Originals",
+      "image": "products_images/Adidas-hoodie.png",
+      "description": "ћ€гка€ ткань дл€ свитшопов. —тиль и комфорт - это образ жизни.",
+      "price": "6090.00",
+      "quantity": 10,
+      "category": 1
+    }
+  }
+]
