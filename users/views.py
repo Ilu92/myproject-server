@@ -1,12 +1,13 @@
 from django.shortcuts import render, HttpResponseRedirect
 from django.contrib import auth, messages
 from django.urls import reverse
+from django.contrib.auth.decorators import login_required
 
 from users.forms import UserLoginForm, UserRegisterForm, UserProfileForm
 from baskets.models import Basket
 
 
-# Create your views here.
+@login_required
 def login(request):
     if request.method == 'POST':
         form = UserLoginForm(data=request.POST)
