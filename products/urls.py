@@ -3,6 +3,8 @@ from products.views import products
 
 app_name = 'products'
 
-urlpatterns = [
-    path('', products, name = 'index'),
-]
+urlpatterns = (
+    path('', products, name='index'),
+    path('<int:category_id>/', products, name='product'),
+    path('page/<int:page>/', products, name='page')
+)
